@@ -1,21 +1,17 @@
 # Revenue Management Dashboard
 
 ## 📃 Descripción General
-El dashboard fue diseñado para un análisis básico del personal de la organización.
-
+Este dashboard fue diseñado para analizar el "Hotel Revenue" de la prestigiosa cadena de hoteles GHL, incluye datos ficticios.
 
 ## 📊 Contenido del proyecto
-- Página de resumen: Ofrece una vista consolidada de toda la infortación relevante de los empleados de la organización.
-- Página Filtrado "Female": Contiene una vista de información sobre los empleados de género femenino.
-- Página Filtrado "Male": Contiene una vista de información sobre los empleados de género masculino.
+- Página de "Regions": Contiene una vista general por país.
+- Páginas de "Hotel Branches": Contiene una vista por sucursal de hotel.
 
 
 ## 🛠️ Herramientas y Tecnologías Utilizadas
 - Visualización: Power BI Desktop.
 - Fuente de Datos:
-  - [Empleados.csv](https://raw.githubusercontent.com/Gbarrantes25/Employee-Dashboard-PowerBI/refs/heads/main/Fuente%20de%20Datos/Empleados.csv)
-  - [Evaluación.csv](https://raw.githubusercontent.com/Gbarrantes25/Employee-Dashboard-PowerBI/refs/heads/main/Fuente%20de%20Datos/Evaluacion.csv)
-  - [Sueldos.csv](https://raw.githubusercontent.com/Gbarrantes25/Employee-Dashboard-PowerBI/refs/heads/main/Fuente%20de%20Datos/Sueldos.csv)
+  - [Reservaciones.xlsx](https://docs.google.com/spreadsheets/d/e/2PACX-1vRdWNnJHLjaaxnecHMjJK8TAAop6xaUzc2tE5GKhMgPZyLvMDqzsVRGwXgw6ONBDgNShjCJSyITTLpV/pub?output=xlsx)
  
     
 - Lenguajes: DAX para las medidas calculadas y Power Query (Lenguaje M) para la transformación de datos.
@@ -24,27 +20,67 @@ El dashboard fue diseñado para un análisis básico del personal de la organiza
 ## ⚙️ Configuración del Entorno
 - Software Necesario: Power BI Desktop.
 - Instalación:
-  - Descargar [Employee.pbix](https://github.com/Gbarrantes25/Employee-Dashboard-PowerBI/raw/refs/heads/main/Employee.pbix) con Power BI Desktop.
+  - Descargar [Revenue.pbix](https://github.com/Gbarrantes25/RevenueManagement-Dashboard-PowerBI/blob/main/Revenue.pbix) con Power BI Desktop.
   - Entrar a Inicio y darle click a "Actualizar".
 
 
 ## 📂 Estructura del Repositorio
 <code>.
-  ├── Fuente de Datos/                  # Contiene los archivos de datos de ejemplo (.CSV)
-  ├── Dashboard (Boxy sections 6).svg   # Es el archivo de fondo del lienzo del proyecto.
-  ├── Employee.pbix                     # Archivo que será ejecutado con Power BI Desktop.
-  └── README.md                         # Este archivo
+  ├── Dashboard (box azul).svg     # Es el archivo de fondo del lienzo del proyecto.
+  ├── Revenue.pbix                 # Archivo que será ejecutado con Power BI Desktop.
+  └── README.md                    # Este archivo.
 </code>
 
 
 ## ✅ Características Principales
 - Transformaciones en Power Query: Se realizaron procesos de limpieza y modelado de datos para optimizar el rendimiento.
-- Medidas DAX: Se implementaron cálculos para análisis de empleados y segmentación por género.
-  - <code>Promedio Edad = AVERAGE(Empleados[Edad])</code>
-  - <code>Promedio Evaluación = AVERAGE(Evaluacion[Evaluación])</code>
-  - <code>Promedio Sueldo = AVERAGE(Sueldos[Sueldo])</code>
-  - <code>Total Empleados = DISTINCTCOUNT(Empleados[ID])</code>
-- Diseño Interactivo: Uso de bookmarks para navegación y filtrado intuitivo entre páginas.
+- Medidas DAX: Se implementaron cálculos para los KPI's del Revenue Management.
+  - <code>%Occ = DIVIDE([Total RNs],[RNs Disponibles],0)</code>
+  - <code>Conteo Días = COUNT(Calendario[Date])</code>
+  - <code>RNs Disponibles = SUMX(Habitaciones,Habitaciones[Cantidad de Habitaciones]*[Conteo Días])</code>
+  - <code>ADR = DIVIDE([Total Revenue],[Total RNs],0)</code>
+  - <code>Total Revenue = SUMX(Reservaciones,Reservaciones[RN]*Reservaciones[Precio Unitario])</code>
+  - <code>Total RNs = SUM(Reservaciones[RN])</code>
+  - <code>RevPar = [ADR]*[%Occ]</code>
+  - <code>Total A&B = SUM(Reservaciones[A&B])</code>
+- Medidas Formateadas DAX: Se implementaron medidas formateadas para visualizar de manera corta los números extensos ("B", "M" y "K").
+  - <code>ADR*** = 
+          VAR T = ABS([ADR])
+          RETURN
+              SWITCH(TRUE(),
+                  T >= 1000000000, FORMAT(T, "$#,,,.00 B"),
+                  T >= 1000000, FORMAT(T, "$#,,.00 M"),
+                  T >= 1000, FORMAT(T, "$#,.00 K"),
+                      SUBSTITUTE(FORMAT(T, "$#.00"),",","."))
+    </code>
+  - <code>RNs*** = 
+          VAR T = [Total RNs]
+          RETURN
+              SWITCH(TRUE(),
+                  T >= 1000000000, FORMAT(T, "#,,,.00 B"),
+                  T >= 1000000, FORMAT(T, "#,,.00 M"),
+                  T >= 1000, FORMAT(T, "#,.00 K"),
+                      FORMAT(T,"0"))
+    </code>
+  - <code>Revenue*** = 
+          VAR T = [Total Revenue]
+          RETURN
+              SWITCH(TRUE(),
+                  T >= 1000000000, FORMAT(T, "$#,,,.00 B"),
+                  T >= 1000000, FORMAT(T, "$#,,.00 M"),
+                  T >= 1000, FORMAT(T, "$#,.00 K"),
+                      FORMAT(T,"$0.00"))
+    </code>
+  - <code>A&B*** = 
+          VAR T = [Total A&B]
+          RETURN
+              SWITCH(TRUE(),
+                  T >= 1000000000, FORMAT(T, "$#,,,.00 B"),
+                  T >= 1000000, FORMAT(T, "$#,,.00 M"),
+                  T >= 1000, FORMAT(T, "$#,.00 K"),
+                      FORMAT(T,"$0"))
+    </code>
+- Diseño Interactivo: Uso de paginado para navegación y segmentación de datos.
 
 
 ## 🖼️ Vistas Previas del proyecto
@@ -52,22 +88,18 @@ El dashboard fue diseñado para un análisis básico del personal de la organiza
   <summary>Capturas</summary>
 
 
-  Vista consolidada
+  Página "Regions"
 
 
-  <img width="1862" height="1050" alt="image" src="https://github.com/user-attachments/assets/81920c57-ec5f-4876-943f-a5e1ab567005" />
+  ![Animation1](https://github.com/user-attachments/assets/0d3de5f3-ae65-43e6-abc6-72e97e6a6be9)
 
 
-  Género Femenino
+  Página "Hotel Branches"
 
 
-  <img width="1825" height="1046" alt="image" src="https://github.com/user-attachments/assets/6b71785f-57ee-478f-9167-401282d07167" />
+  ![Animation2](https://github.com/user-attachments/assets/0d347ecd-a7cb-496e-940e-a18ad0723a01)
 
 
-  Género masculino por Oficina Administrativa
-
-
-  <img width="1810" height="1040" alt="image" src="https://github.com/user-attachments/assets/485ea7d6-5a39-42c9-a112-63c63bea30a5" />
 </details>
 
 
