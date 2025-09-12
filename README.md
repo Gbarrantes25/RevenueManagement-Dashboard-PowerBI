@@ -1,7 +1,10 @@
 # Revenue Management Dashboard
 
 ## 📃 Descripción General
-Este dashboard fue diseñado para analizar el "Hotel Revenue" de la prestigiosa cadena de hoteles GHL, incluye datos ficticios.
+Este dashboard fue diseñado para analizar el "Hotel Revenue" de la prestigiosa cadena de hoteles GHL (incluye datos ficticios).
+
+<img width="200" height="121" alt="image" src="https://github.com/user-attachments/assets/e5042a94-be9a-46aa-ba52-f2e33ec8c7df" />
+
 
 ## 📊 Contenido del proyecto
 - Página de "Regions": Contiene una vista general por país.
