@@ -32,6 +32,7 @@ Este dashboard fue diseñado para analizar el "Hotel Revenue" de la prestigiosa 
 <code>.
   ├── Dashboard (box azul).svg     # Es el archivo de fondo del lienzo del proyecto.
   ├── Revenue.pbix                 # Archivo que será ejecutado con Power BI Desktop.
+  |—— Demo.gif                     # Demo del proyecto.
   └── README.md                    # Este archivo.
 </code>
 
