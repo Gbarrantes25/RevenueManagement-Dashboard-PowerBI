@@ -107,6 +107,12 @@ Este dashboard fue diseñado para analizar el "Hotel Revenue" de la prestigiosa 
 
 </details>
 
+<details>
+  <summary>Video</summary>
+  https://www.youtube.com/watch?v=TMqiaGSsMXk
+</details>
+
+
 
 ## 👤 Autor
 - Giancarlo Barrantes
