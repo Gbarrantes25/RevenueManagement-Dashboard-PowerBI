@@ -2,7 +2,15 @@
 
 
 ## 📃 Descripción General
-Este dashboard fue diseñado para analizar el "Hotel Revenue" de la prestigiosa cadena de hoteles GHL (incluye datos ficticios).
+Dashboard de Revenue Management para Hotelería desarrollado en Power BI, diseñado para analizar y optimizar el rendimiento de ingresos de una cadena hotelera multinacional.
+Este proyecto transforma datos de reservaciones en métricas estratégicas del sector hotelero mediante:
+
+- 📊 2 Vistas Analíticas: Regions (vista por país) y Hotel Branches (vista por sucursal).
+- 🏨 KPIs Hoteleros: +10 medidas DAX especializadas (RevPAR, ADR, Occupancy %).
+- 📈 Formato Inteligente: Medidas formateadas automáticamente (B, M, K) para grandes volúmenes.
+- 🎯 Análisis de Ingresos: Revenue por habitación, alimentos y bebidas (A&B).
+- 🖱️ Navegación Interactiva: Segmentación por país, hotel y período de tiempo.
+
 
 <img width="200" height="121" alt="image" src="https://github.com/user-attachments/assets/e5042a94-be9a-46aa-ba52-f2e33ec8c7df" />
 
