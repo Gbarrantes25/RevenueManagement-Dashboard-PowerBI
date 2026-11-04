@@ -125,4 +125,7 @@ Este proyecto transforma datos de reservaciones en métricas estratégicas del s
 ## 👤 Autor
 - Giancarlo Barrantes
 - Lima, Perú
-- [Linkedin](https://www.linkedin.com/in/gb25/)
+- [linkedin.com/in/gb25](https://www.linkedin.com/in/gb25/)
+- [instagram.com/gbarrantes25](https://www.instagram.com/gbarrantes25/)
+- [tiktok.com/@gbarrantes25](https://www.tiktok.com/@gbarrantes25)
+- [youtube.com/@gbarrantes25](https://www.youtube.com/@gbarrantes25)
