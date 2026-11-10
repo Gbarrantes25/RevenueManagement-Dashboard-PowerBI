@@ -1,0 +1,95 @@
+table Medidas
+	lineageTag: 57f6279d-d2c8-49ee-bb19-a89f564d711a
+
+	measure 'Total RNs' = SUM(Reservaciones[RN])
+		formatString: 0
+		lineageTag: 013a541f-904b-4f4a-9900-0dd100b51769
+
+	measure ADR = DIVIDE([Total Revenue],[Total RNs],0)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2ca1fd8f-c8e2-450d-9073-c39552ec7f61
+
+	measure 'Total A&B' = SUM(Reservaciones[A&B])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 14b7fc42-6e24-40d4-b363-cddb984d65fa
+
+	measure 'Conteo Días' = COUNT(Calendario[Date])
+		formatString: 0
+		lineageTag: 6aa2bacb-102a-4da1-b57c-4a793a839412
+
+	measure 'RNs Disponibles' = SUMX(Habitaciones,Habitaciones[Cantidad de Habitaciones]*[Conteo Días])
+		formatString: 0
+		lineageTag: 76ae72be-04fa-40bf-822a-ecffc0584126
+
+	measure %Occ = DIVIDE([Total RNs],[RNs Disponibles],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: bf7c70cf-2d69-46aa-be98-91176be16096
+
+	measure RevPar = [ADR]*[%Occ]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: c4edfebf-bbab-4b1e-ba71-7ed03e9f739f
+
+	measure Revenue*** =
+			
+			VAR T = [Total Revenue]
+			RETURN
+			    SWITCH(TRUE(),
+			        T >= 1000000000, FORMAT(T, "$#,,,.00 B"),
+			        T >= 1000000, FORMAT(T, "$#,,.00 M"),
+			        T >= 1000, FORMAT(T, "$#,.00 K"),
+			            FORMAT(T,"$0.00")
+			    )
+		lineageTag: 009106f8-2087-4dba-84f0-77e7d4a12e32
+
+	measure 'Total Revenue' = SUMX(Reservaciones,Reservaciones[RN]*Reservaciones[Precio Unitario])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 011b0967-34a2-49a7-8d32-3abd7765c68b
+
+	measure A&B*** =
+			
+			VAR T = [Total A&B]
+			RETURN
+			    SWITCH(TRUE(),
+			        T >= 1000000000, FORMAT(T, "$#,,,.00 B"),
+			        T >= 1000000, FORMAT(T, "$#,,.00 M"),
+			        T >= 1000, FORMAT(T, "$#,.00 K"),
+			            FORMAT(T,"$0")
+			    )
+		lineageTag: ddbffc02-2db2-48a2-af12-f52e004fbebe
+
+	measure RNs*** =
+			
+			VAR T = [Total RNs]
+			RETURN
+			    SWITCH(TRUE(),
+			        T >= 1000000000, FORMAT(T, "#,,,.00 B"),
+			        T >= 1000000, FORMAT(T, "#,,.00 M"),
+			        T >= 1000, FORMAT(T, "#,.00 K"),
+			            FORMAT(T,"0")
+			    )
+		lineageTag: 90333d20-8d54-4257-a4d8-380eae407083
+
+	measure ADR*** =
+			
+			VAR T = ABS([ADR])
+			RETURN
+			    SWITCH(TRUE(),
+			        T >= 1000000000, FORMAT(T, "$#,,,.00 B"),
+			        T >= 1000000, FORMAT(T, "$#,,.00 M"),
+			        T >= 1000, FORMAT(T, "$#,.00 K"),
+			            SUBSTITUTE(FORMAT(T, "$#.00"),",",".")
+			    )
+		lineageTag: 54246e84-98f5-4209-a8f2-e7deb53a9da9
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Columna1", type text}}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Tipo cambiado",{"Columna1"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_ResultType = Table
+

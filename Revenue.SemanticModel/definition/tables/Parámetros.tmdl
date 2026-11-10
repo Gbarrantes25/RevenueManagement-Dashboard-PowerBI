@@ -1,0 +1,51 @@
+table Parámetros
+	lineageTag: dc00237f-3049-49a4-847b-774b18a08dc6
+
+	column Métricas
+		lineageTag: 4ca27075-41f9-4d17-96fa-c4db9af194ee
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parámetro Orden'
+
+		relatedColumnDetails
+			groupByColumn: 'Parámetro Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parámetro Campos'
+		isHidden
+		lineageTag: 63bf95a2-8b95-41da-9e20-9dc6f18ca1c3
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parámetro Orden'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parámetro Orden'
+		isHidden
+		formatString: 0
+		lineageTag: f9b96125-0816-4f86-93db-8e529a599c41
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Parámetros = calculated
+		mode: import
+		source =
+				{
+				    ("Revenue", NAMEOF('Medidas'[Total Revenue]), 0),
+				    ("Room Nights", NAMEOF('Medidas'[Total RNs]), 1),
+				    ("ADR", NAMEOF('Medidas'[ADR]), 2),
+				    ("RevPar", NAMEOF('Medidas'[RevPar]), 3),
+				    ("A&B", NAMEOF('Medidas'[Total A&B]), 4)
+				}
+
+	annotation PBI_Id = 9894fb06cdf443ac8f1da22d037a55a4
+

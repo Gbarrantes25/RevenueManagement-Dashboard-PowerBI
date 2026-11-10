@@ -1,0 +1,99 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 709.38305001469359,
+            "y": 91
+          },
+          "nodeIndex": "Habitaciones",
+          "nodeLineageTag": "bc930646-5095-4e7f-aad9-10eb8b88bd6e",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 402.20156119318517,
+            "y": 0
+          },
+          "nodeIndex": "Hoteles",
+          "nodeLineageTag": "ab88b4f0-a489-4417-b017-668096020de4",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": -50
+          },
+          "nodeIndex": "Reservaciones",
+          "nodeLineageTag": "8cc04cd6-3714-4eea-bcf7-e372bb61fde8",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1010.3830500146936,
+            "y": 59
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "57f6279d-d2c8-49ee-bb19-a89f564d711a",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 412.24018960209605,
+            "y": 279
+          },
+          "nodeIndex": "Calendario",
+          "nodeLineageTag": "351a9668-7a63-4c63-9640-41eea61732c7",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1244.3830500146937,
+            "y": 188.5
+          },
+          "nodeIndex": "Parámetros",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

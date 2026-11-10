@@ -1,0 +1,17 @@
+relationship AutoDetected_505e966c-50a6-47cb-9643-4aa46c470a0d
+	fromColumn: Habitaciones.'ID hotel'
+	toColumn: Hoteles.'ID hotel'
+
+relationship AutoDetected_9db2a49a-e186-45b3-8b22-a4b4e5700bc6
+	fromColumn: Reservaciones.'ID hotel'
+	toColumn: Hoteles.'ID hotel'
+
+relationship 42c2954c-1cbf-3ccf-1873-deb955c80b7a
+	fromColumn: Reservaciones.Check-in
+	toColumn: Calendario.Date
+
+relationship 3d1f8ebe-6da6-498a-9c9f-391e1762615d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Reservaciones.Check-out
+	toColumn: LocalDateTable_6927d47a-5dff-4538-99f5-6f0d0b4807a6.Date
+

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10",
+      "reportVersionAtImport": {
+        "visual": "1.8.95",
+        "report": "2.0.95",
+        "page": "1.3.95"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU10",
+          "path": "BaseThemes/CY24SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Billetes9427327192242994.png",
+          "path": "Billetes9427327192242994.png",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_20(box_20azul)_1_9325322835654333.svg",
+          "path": "Dashboard_20(box_20azul)_1_9325322835654333.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_20(box_20azul)_1_9551246080133762.svg",
+          "path": "Dashboard_20(box_20azul)_1_9551246080133762.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ghl3969806327390428.PNG",
+          "path": "ghl3969806327390428.PNG",
+          "type": "Image"
+        },
+        {
+          "name": "Habitacion2508516712432084.png",
+          "path": "Habitacion2508516712432084.png",
+          "type": "Image"
+        },
+        {
+          "name": "hotel2714519225683931.png",
+          "path": "hotel2714519225683931.png",
+          "type": "Image"
+        },
+        {
+          "name": "Imagen406925884178921349.png",
+          "path": "Imagen406925884178921349.png",
+          "type": "Image"
+        },
+        {
+          "name": "regiones9959428016834037.png",
+          "path": "regiones9959428016834037.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

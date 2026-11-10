@@ -1,0 +1,87 @@
+table Hoteles
+	lineageTag: ab88b4f0-a489-4417-b017-668096020de4
+
+	column 'ID hotel'
+		dataType: int64
+		formatString: 0
+		lineageTag: d3ae2ecb-6943-4ccf-923c-bc1d2877c115
+		summarizeBy: none
+		sourceColumn: ID hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nombre del hotel'
+		dataType: string
+		lineageTag: 5505d71b-b93c-4806-92c6-857ae0a464bb
+		summarizeBy: none
+		sourceColumn: Nombre del hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column País
+		dataType: string
+		lineageTag: 203551e3-6730-42b8-a8af-b1c6662b9063
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: País
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ciudad
+		dataType: string
+		lineageTag: 321a14af-18b0-464c-85a1-4bd2453ed697
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: Ciudad
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Provincia o estado'
+		dataType: string
+		lineageTag: d6997c25-c000-48cb-be80-e80e6009d30c
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: Provincia o estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoría
+		dataType: int64
+		formatString: 0
+		lineageTag: 01cbec0c-7725-4bd2-b1ad-a8655806b7d7
+		summarizeBy: sum
+		sourceColumn: Categoría
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'País Jerarquía'
+		lineageTag: 0fc0b604-4804-4d3d-b1a0-c339c260de8b
+
+		level País
+			lineageTag: 33907bfe-5ca1-43b0-9228-912e08f1b9ed
+			column: País
+
+		level 'Provincia o estado'
+			lineageTag: 89c49ecc-54ab-4d33-976a-650aca87b058
+			column: 'Provincia o estado'
+
+		level Ciudad
+			lineageTag: 7bc64dac-9c68-41b0-86d7-472feb32346d
+			column: Ciudad
+
+	partition Hoteles = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/e/2PACX-1vRdWNnJHLjaaxnecHMjJK8TAAop6xaUzc2tE5GKhMgPZyLvMDqzsVRGwXgw6ONBDgNShjCJSyITTLpV/pub?output=xlsx"), null, true),
+				    Hoteles_Sheet = Origen{[Item="Hoteles",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Hoteles_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID hotel", Int64.Type}, {"Nombre del hotel", type text}, {"País", type text}, {"Ciudad", type text}, {"Provincia o estado", type text}, {"Categoría", Int64.Type}}),
+				    #"Texto limpio" = Table.TransformColumns(#"Tipo cambiado",{{"Provincia o estado", Text.Clean, type text}, {"Ciudad", Text.Clean, type text}})
+				in
+				    #"Texto limpio"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

@@ -1,0 +1,25 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-PE
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Habitaciones","Hoteles","Reservaciones","Medidas"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Habitaciones
+ref table Hoteles
+ref table Reservaciones
+ref table Medidas
+ref table Calendario
+ref table DateTableTemplate_923fd8a8-a7b7-4968-b511-fe0e9b7f3f5b
+ref table LocalDateTable_6927d47a-5dff-4538-99f5-6f0d0b4807a6
+ref table Parámetros
+
+ref cultureInfo es-ES
+

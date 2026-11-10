@@ -1,0 +1,122 @@
+table Reservaciones
+	lineageTag: 8cc04cd6-3714-4eea-bcf7-e372bb61fde8
+
+	column 'Número de reserva'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c95ec26-cf75-462d-92e1-82d94d60bd63
+		summarizeBy: none
+		sourceColumn: Número de reserva
+
+		annotation SummarizationSetBy = User
+
+	column 'ID hotel'
+		dataType: int64
+		formatString: 0
+		lineageTag: 83ed33ab-54e6-4f1d-849e-53b654d543a3
+		summarizeBy: none
+		sourceColumn: ID hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'País de huesped'
+		dataType: string
+		lineageTag: ee90c5b6-96dc-4324-8ccd-8da054b4e622
+		summarizeBy: none
+		sourceColumn: País de huesped
+
+		annotation SummarizationSetBy = Automatic
+
+	column Check-in
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1ea08ec7-5acc-4907-ba67-3b4f21a6960c
+		summarizeBy: none
+		sourceColumn: Check-in
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Check-out
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 25e61a7d-e991-4df0-a1a0-148b73c6b5e5
+		summarizeBy: none
+		sourceColumn: Check-out
+
+		variation Variación
+			isDefault
+			relationship: 3d1f8ebe-6da6-498a-9c9f-391e1762615d
+			defaultHierarchy: LocalDateTable_6927d47a-5dff-4538-99f5-6f0d0b4807a6.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Estado de reserva'
+		dataType: string
+		lineageTag: a81d15e3-bfd8-445a-a14d-7a2772e002bb
+		summarizeBy: none
+		sourceColumn: Estado de reserva
+
+		annotation SummarizationSetBy = Automatic
+
+	column RN
+		dataType: int64
+		formatString: 0
+		lineageTag: 3b5693a1-aa9e-44c1-bda5-658be3cddfe3
+		summarizeBy: none
+		sourceColumn: RN
+
+		annotation SummarizationSetBy = User
+
+	column Segmento
+		dataType: string
+		lineageTag: a14aa09e-3e41-4f9b-a0a8-cedae7178dbe
+		summarizeBy: none
+		sourceColumn: Segmento
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de habitación'
+		dataType: string
+		lineageTag: 58af319c-97d1-4e17-8d91-ccf95e4e3b51
+		summarizeBy: none
+		sourceColumn: Tipo de habitación
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Precio Unitario'
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 36811b32-aea2-4866-bb31-0413d1976ac6
+		summarizeBy: sum
+		sourceColumn: Precio Unitario
+
+		annotation SummarizationSetBy = Automatic
+
+	column A&B
+		dataType: double
+		formatString: #,0.00
+		lineageTag: db6858e3-ba12-4ca6-91e3-0909b21d2c1e
+		summarizeBy: sum
+		sourceColumn: A&B
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Reservaciones = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/e/2PACX-1vRdWNnJHLjaaxnecHMjJK8TAAop6xaUzc2tE5GKhMgPZyLvMDqzsVRGwXgw6ONBDgNShjCJSyITTLpV/pub?output=xlsx"), null, true),
+				    Reservaciones_Sheet = Origen{[Item="Reservaciones",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Reservaciones_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Número de reserva", Int64.Type}, {"ID hotel", Int64.Type}, {"País de huesped", type text}, {"Check-in", type date}, {"Check-out", type date}, {"Estado de reserva", type text}, {"RN", Int64.Type}, {"Segmento", type text}, {"Tipo de habitación", type text}, {"Precio Unitario", type number}, {"A&B", type number}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

@@ -1,0 +1,5146 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "habitacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Habitaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "habitacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "habitacione.ID_hotel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Habitaciones",
+			          "ConceptualProperty": "ID hotel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID hotel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hotel": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "id hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "habitacione.tipo_de_habitación": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Habitaciones",
+			          "ConceptualProperty": "Tipo de habitación"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de habitación": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "habitacione.cantidad_de_habitacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Habitaciones",
+			          "ConceptualProperty": "Cantidad de Habitaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad de habitacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hotele": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hotele": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hotele.ID_hotel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "ConceptualProperty": "ID hotel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID hotel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hotel": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "id hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "hotele.nombre_del_hotel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "ConceptualProperty": "Nombre del hotel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre del hotel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre del guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "nombre del inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "nombre del hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "nombre del roadhouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "nombre del motel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "nombre del tavern": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "nombre del pub": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "nombre del lodge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "nombre del resort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "Branches": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "hotele.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "ConceptualProperty": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Coountry": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hotele.ciudad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "ConceptualProperty": "Ciudad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ciudad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "city": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hotele.provincia_o_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "ConceptualProperty": "Provincia o estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "provincia o estado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "State": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hotele.categoría": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "ConceptualProperty": "Categoría"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoría": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "reservacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.número_de_reserva": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Número de reserva"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "número de reserva": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.ID_hotel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "ID hotel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID hotel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hotel": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential hotel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "guesthouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "id hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "hostel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.país_de_huesped": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "País de huesped"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país de huesped": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.checkin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Check-in"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "check-in": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "check in": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cheque in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "checkup in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "inspection in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "test in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tick in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "bill in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cheque -in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "checkup -in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "inspection -in": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "reservacione.checkout": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Check-out"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "check-out": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "check out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cheque out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "checkup out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "inspection out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "test out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tick out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "bill out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cheque -out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "checkup -out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "inspection -out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "reservacione.checkout.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "VariationSource": "Check-out",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.checkout.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "VariationSource": "Check-out",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check-out año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check out año": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cheque out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "checkup out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "inspection out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "payment out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "test out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "tick out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "bill out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cheque -out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "checkup -out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "inspection -out año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.checkout.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "VariationSource": "Check-out",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check-out trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check out trimestre": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cheque out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "checkup out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "inspection out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "payment out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "test out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "tick out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "bill out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cheque -out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "checkup -out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "inspection -out trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.checkout.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "VariationSource": "Check-out",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check-out me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check out me": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cheque out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "checkup out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "inspection out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "payment out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "test out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "tick out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "bill out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cheque -out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "checkup -out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "inspection -out me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.checkout.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "VariationSource": "Check-out",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check-out día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "check out día": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cheque out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "checkup out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "inspection out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "payment out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "test out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "tick out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "bill out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cheque -out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "checkup -out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "inspection -out día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.estado_de_reserva": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Estado de reserva"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado de reserva": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.rn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "RN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.segmento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Segmento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segmento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.tipo_de_habitación": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Tipo de habitación"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de habitación": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Room Type": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.precio_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "Precio Unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio unitario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "reservacione.a_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Reservaciones",
+			          "ConceptualProperty": "A&B"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "a b": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "A&B": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "b": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_RNs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total RNs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total RNs": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate rn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall rn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.adr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ADR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "adr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_AB": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total A&B"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total A&B": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate a&b": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall a&b": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "A&B": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.conteo_días": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Conteo Días"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conteo días": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.RNs_disponibles": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "RNs Disponibles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RNs disponibles": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.occ": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "%Occ"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%occ": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage occ": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct occ": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.rev_par": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "RevPar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rev par": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RevPar": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "par": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rev parity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rev equivalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rev equality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "rev similarity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "parity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "equivalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "equality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "similarity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rev balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "medida.revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Revenue***"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue***": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income ***": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "profit ***": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "turnover ***": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "yield ***": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Year": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Month": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.nombre_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Nombre Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.día_del_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Día del Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día del me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.n_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "N° Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "n° semana": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "total profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.ab": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "A&B***"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "a&b***": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "A&B": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.RNs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "RNs***"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RNs***": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Room Nights": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "RNs": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.adr1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "ADR***"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "adr***": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Average Daily Rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.date_jerarquía": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "Hierarchy": "Date Jerarquía"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date jerarquía": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment jerarquía": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period jerarquía": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.date_jerarquía.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "Hierarchy": "Date Jerarquía",
+			          "HierarchyLevel": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "parámetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parámetro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parámetro.métrica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetros",
+			          "ConceptualProperty": "Métricas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "métrica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KPI": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "parámetro.parámetro_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetros",
+			          "ConceptualProperty": "Parámetro Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parámetro campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parámetro.parámetro_orden": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parámetros",
+			          "ConceptualProperty": "Parámetro Orden"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parámetro orden": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hotele.país_jerarquía": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "Hierarchy": "País Jerarquía"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país jerarquía": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hotele.país_jerarquía.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "Hierarchy": "País Jerarquía",
+			          "HierarchyLevel": "País"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hotele.país_jerarquía.provincia_o_estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "Hierarchy": "País Jerarquía",
+			          "HierarchyLevel": "Provincia o estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "provincia o estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "hotele.país_jerarquía.ciudad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Hoteles",
+			          "Hierarchy": "País Jerarquía",
+			          "HierarchyLevel": "Ciudad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ciudad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    }
+			  },
+			  "Relationships": {
+			    "hotele_país_jerarquía_país_has_hotele_país_jerarquía_provincia_o_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele.país_jerarquía.país": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.país"
+			          }
+			        },
+			        "hotele.país_jerarquía.provincia_o_estado": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.provincia_o_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía.país"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "país_have_provincia_o_estado"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "provincia_o_estado_have_país"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "provincia_o_estado_are_in_país"
+			        }
+			      ]
+			    },
+			    "hotele_país_jerarquía_has_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele.país_jerarquía": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía"
+			          }
+			        },
+			        "hotele.país_jerarquía.ciudad": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "país_jerarquías_have_ciudad"
+			        }
+			      ]
+			    },
+			    "hotele_país_jerarquía_has_provincia_o_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele.país_jerarquía": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía"
+			          }
+			        },
+			        "hotele.país_jerarquía.provincia_o_estado": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.provincia_o_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "país_jerarquías_have_provincia_o_estado"
+			        }
+			      ]
+			    },
+			    "hotele_país_jerarquía_has_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele.país_jerarquía": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía"
+			          }
+			        },
+			        "hotele.país_jerarquía.país": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "país_jerarquías_have_país"
+			        }
+			      ]
+			    },
+			    "calendario_date_jerarquía_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.date_jerarquía": {
+			          "Target": {
+			            "Entity": "calendario.date_jerarquía"
+			          }
+			        },
+			        "calendario.date_jerarquía.date": {
+			          "Target": {
+			            "Entity": "calendario.date_jerarquía.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.date_jerarquía"
+			            },
+			            "Object": {
+			              "Role": "calendario.date_jerarquía.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_jerarquías_have_dates"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_me_has_reservacione_checkout_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.me": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.me"
+			          }
+			        },
+			        "reservacione.checkout.día": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.me"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.día"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "reservacione.checkout.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_trimestre_has_reservacione_checkout_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.trimestre": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.trimestre"
+			          }
+			        },
+			        "reservacione.checkout.me": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.trimestre"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.me"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "reservacione.checkout.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_año_has_reservacione_checkout_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.año": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.año"
+			          }
+			        },
+			        "reservacione.checkout.trimestre": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.año"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.trimestre"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "reservacione.checkout.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_jerarquía_de_fecha_has_reservacione_checkout_día": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.jerarquía_de_fecha"
+			          }
+			        },
+			        "reservacione.checkout.día": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_jerarquía_de_fecha_has_reservacione_checkout_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.jerarquía_de_fecha"
+			          }
+			        },
+			        "reservacione.checkout.me": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_jerarquía_de_fecha_has_reservacione_checkout_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.jerarquía_de_fecha"
+			          }
+			        },
+			        "reservacione.checkout.trimestre": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_jerarquía_de_fecha_has_reservacione_checkout_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.jerarquía_de_fecha"
+			          }
+			        },
+			        "reservacione.checkout.año": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "reservacione_checkout_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione.checkout": {
+			          "Target": {
+			            "Entity": "reservacione.checkout"
+			          }
+			        },
+			        "reservacione.checkout.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "reservacione.checkout.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione.checkout"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "checkout_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "reservacione_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "reservacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_reservaciones"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Verbs": [
+			              {
+			                "check": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "in": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "calendario"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "reservaciones_check_in_calendarios"
+			        }
+			      ]
+			    },
+			    "reservacione_has_hotele": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          },
+			          "Nouns": [
+			            {
+			              "hotel": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "hotele"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_hoteles"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "reservacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_reservaciones"
+			        }
+			      ]
+			    },
+			    "habitacione_has_hotele": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          },
+			          "Nouns": [
+			            {
+			              "hotel": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "hotele"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_hoteles"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "habitacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_habitaciones"
+			        }
+			      ]
+			    },
+			    "hotele_has_país_jerarquía": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.país_jerarquía": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_país_jerarquías"
+			        }
+			      ]
+			    },
+			    "parámetro_has_métrica": {
+			      "Binding": {
+			        "ConceptualEntity": "Parámetros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parámetro": {
+			          "Target": {
+			            "Entity": "parámetro"
+			          }
+			        },
+			        "parámetro.métrica": {
+			          "Target": {
+			            "Entity": "parámetro.métrica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parámetro"
+			            },
+			            "Object": {
+			              "Role": "parámetro.métrica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parámetros_have_métricas"
+			        }
+			      ]
+			    },
+			    "calendario_has_date_jerarquía": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.date_jerarquía": {
+			          "Target": {
+			            "Entity": "calendario.date_jerarquía"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.date_jerarquía"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_date_jerarquías"
+			        }
+			      ]
+			    },
+			    "parámetro_has_medida_titulo": {
+			      "Binding": {
+			        "ConceptualEntity": "Parámetros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parámetro": {
+			          "Target": {
+			            "Entity": "parámetro"
+			          }
+			        },
+			        "medida.titulo": {
+			          "Target": {
+			            "Entity": "medida.titulo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parámetro"
+			            },
+			            "Object": {
+			              "Role": "medida.titulo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parámetros_have_titulo"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_adr1": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.adr1": {
+			          "Target": {
+			            "Entity": "medida.adr1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.adr1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_adr"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_RNs": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.RNs": {
+			          "Target": {
+			            "Entity": "medida.RNs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.RNs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_RNs"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_ab": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.ab": {
+			          "Target": {
+			            "Entity": "medida.ab"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.ab"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_ab"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_total_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.total_revenue": {
+			          "Target": {
+			            "Entity": "medida.total_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.total_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_total_revenue"
+			        }
+			      ]
+			    },
+			    "calendario_has_n_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.n_semana": {
+			          "Target": {
+			            "Entity": "calendario.n_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.n_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_n_semanas"
+			        }
+			      ]
+			    },
+			    "calendario_has_día_del_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.día_del_me": {
+			          "Target": {
+			            "Entity": "calendario.día_del_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.día_del_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_día_del_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_nombre_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.nombre_me": {
+			          "Target": {
+			            "Entity": "calendario.nombre_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.nombre_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_nombre_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.me": {
+			          "Target": {
+			            "Entity": "calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.año": {
+			          "Target": {
+			            "Entity": "calendario.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_años"
+			        }
+			      ]
+			    },
+			    "calendario_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.date": {
+			          "Target": {
+			            "Entity": "calendario.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dates"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.revenue": {
+			          "Target": {
+			            "Entity": "medida.revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_revenue"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_T_rev_par": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.T_rev_par": {
+			          "Target": {
+			            "Entity": "medida.T_rev_par"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.T_rev_par"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_T_rev_par"
+			        }
+			      ]
+			    },
+			    "habitacione_has_medida_T_rev_par": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "medida.T_rev_par": {
+			          "Target": {
+			            "Entity": "medida.T_rev_par"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "medida.T_rev_par"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_T_rev_par"
+			        }
+			      ]
+			    },
+			    "calendario_has_medida_T_rev_par": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "medida.T_rev_par": {
+			          "Target": {
+			            "Entity": "medida.T_rev_par"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "medida.T_rev_par"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_T_rev_par"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_rev_par": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.rev_par": {
+			          "Target": {
+			            "Entity": "medida.rev_par"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.rev_par"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_rev_par"
+			        }
+			      ]
+			    },
+			    "habitacione_has_medida_rev_par": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "medida.rev_par": {
+			          "Target": {
+			            "Entity": "medida.rev_par"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "medida.rev_par"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_rev_par"
+			        }
+			      ]
+			    },
+			    "calendario_has_medida_rev_par": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "medida.rev_par": {
+			          "Target": {
+			            "Entity": "medida.rev_par"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "medida.rev_par"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_rev_par"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_occ": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.occ": {
+			          "Target": {
+			            "Entity": "medida.occ"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.occ"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_occ"
+			        }
+			      ]
+			    },
+			    "habitacione_has_medida_occ": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "medida.occ": {
+			          "Target": {
+			            "Entity": "medida.occ"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "medida.occ"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_occ"
+			        }
+			      ]
+			    },
+			    "calendario_has_medida_occ": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "medida.occ": {
+			          "Target": {
+			            "Entity": "medida.occ"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "medida.occ"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_occ"
+			        }
+			      ]
+			    },
+			    "habitacione_has_medida_RNs_disponibles": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "medida.RNs_disponibles": {
+			          "Target": {
+			            "Entity": "medida.RNs_disponibles"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "medida.RNs_disponibles"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_RNs_disponibles"
+			        }
+			      ]
+			    },
+			    "calendario_has_medida_RNs_disponibles": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "medida.RNs_disponibles": {
+			          "Target": {
+			            "Entity": "medida.RNs_disponibles"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "medida.RNs_disponibles"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_RNs_disponibles"
+			        }
+			      ]
+			    },
+			    "calendario_has_medida_conteo_días": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "medida.conteo_días": {
+			          "Target": {
+			            "Entity": "medida.conteo_días"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "medida.conteo_días"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_conteo_días"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_total_AB": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.total_AB": {
+			          "Target": {
+			            "Entity": "medida.total_AB"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.total_AB"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_total_AB"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_adr": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.adr": {
+			          "Target": {
+			            "Entity": "medida.adr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.adr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_adr1"
+			        }
+			      ]
+			    },
+			    "reservacione_has_medida_total_RNs": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "medida.total_RNs": {
+			          "Target": {
+			            "Entity": "medida.total_RNs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "medida.total_RNs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_total_RNs"
+			        }
+			      ]
+			    },
+			    "reservacione_has_a_b": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.a_b": {
+			          "Target": {
+			            "Entity": "reservacione.a_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.a_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_a_b"
+			        }
+			      ]
+			    },
+			    "reservacione_has_precio_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.precio_unitario": {
+			          "Target": {
+			            "Entity": "reservacione.precio_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.precio_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_precio_unitarios"
+			        }
+			      ]
+			    },
+			    "reservacione_has_tipo_de_habitación": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.tipo_de_habitación": {
+			          "Target": {
+			            "Entity": "reservacione.tipo_de_habitación"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.tipo_de_habitación"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_tipo_de_habitacións"
+			        }
+			      ]
+			    },
+			    "reservacione_has_segmento": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.segmento": {
+			          "Target": {
+			            "Entity": "reservacione.segmento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.segmento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_segmentos"
+			        }
+			      ]
+			    },
+			    "reservacione_has_rn": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.rn": {
+			          "Target": {
+			            "Entity": "reservacione.rn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.rn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_rn"
+			        }
+			      ]
+			    },
+			    "reservacione_has_estado_de_reserva": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.estado_de_reserva": {
+			          "Target": {
+			            "Entity": "reservacione.estado_de_reserva"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.estado_de_reserva"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_estado_de_reservas"
+			        }
+			      ]
+			    },
+			    "reservacione_has_checkout": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.checkout": {
+			          "Target": {
+			            "Entity": "reservacione.checkout"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkout"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_checkout"
+			        }
+			      ]
+			    },
+			    "reservacione_has_checkin": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.checkin": {
+			          "Target": {
+			            "Entity": "reservacione.checkin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.checkin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_checkin"
+			        }
+			      ]
+			    },
+			    "reservacione_has_país_de_huesped": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.país_de_huesped": {
+			          "Target": {
+			            "Entity": "reservacione.país_de_huesped"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.país_de_huesped"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_país_de_huespeds"
+			        }
+			      ]
+			    },
+			    "reservacione_has_número_de_reserva": {
+			      "Binding": {
+			        "ConceptualEntity": "Reservaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "reservacione": {
+			          "Target": {
+			            "Entity": "reservacione"
+			          }
+			        },
+			        "reservacione.número_de_reserva": {
+			          "Target": {
+			            "Entity": "reservacione.número_de_reserva"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "reservacione"
+			            },
+			            "Object": {
+			              "Role": "reservacione.número_de_reserva"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reservaciones_have_número_de_reservas"
+			        }
+			      ]
+			    },
+			    "hotele_has_categoría": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.categoría": {
+			          "Target": {
+			            "Entity": "hotele.categoría"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.categoría"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_categorías"
+			        }
+			      ]
+			    },
+			    "hotele_has_provincia_o_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.provincia_o_estado": {
+			          "Target": {
+			            "Entity": "hotele.provincia_o_estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.provincia_o_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_provincia_o_estado"
+			        }
+			      ]
+			    },
+			    "hotele_has_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.ciudad": {
+			          "Target": {
+			            "Entity": "hotele.ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_ciudad"
+			        }
+			      ]
+			    },
+			    "hotele_has_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.país": {
+			          "Target": {
+			            "Entity": "hotele.país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_país"
+			        }
+			      ]
+			    },
+			    "hotele_has_nombre_del_hotel": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.nombre_del_hotel": {
+			          "Target": {
+			            "Entity": "hotele.nombre_del_hotel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.nombre_del_hotel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_nombre_del_hotels"
+			        }
+			      ]
+			    },
+			    "hotele_has_ID_hotel": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.ID_hotel": {
+			          "Target": {
+			            "Entity": "hotele.ID_hotel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Object": {
+			              "Role": "hotele.ID_hotel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_have_ID_hotels"
+			        }
+			      ]
+			    },
+			    "habitacione_has_cantidad_de_habitacione": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "habitacione.cantidad_de_habitacione": {
+			          "Target": {
+			            "Entity": "habitacione.cantidad_de_habitacione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "habitacione.cantidad_de_habitacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_cantidad_de_habitaciones"
+			        }
+			      ]
+			    },
+			    "habitacione_has_tipo_de_habitación": {
+			      "Binding": {
+			        "ConceptualEntity": "Habitaciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "habitacione": {
+			          "Target": {
+			            "Entity": "habitacione"
+			          }
+			        },
+			        "habitacione.tipo_de_habitación": {
+			          "Target": {
+			            "Entity": "habitacione.tipo_de_habitación"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "habitacione"
+			            },
+			            "Object": {
+			              "Role": "habitacione.tipo_de_habitación"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "habitaciones_have_tipo_de_habitacións"
+			        }
+			      ]
+			    },
+			    "hotele_in_provincia_o_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.provincia_o_estado": {
+			          "Target": {
+			            "Entity": "hotele.provincia_o_estado"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "hotele.provincia_o_estado"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "hotele.provincia_o_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_are_in_provincia_o_estado"
+			        }
+			      ]
+			    },
+			    "hotele_in_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.ciudad": {
+			          "Target": {
+			            "Entity": "hotele.ciudad"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "hotele.ciudad"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "hotele.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_are_in_ciudad"
+			        }
+			      ]
+			    },
+			    "hotele_in_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele": {
+			          "Target": {
+			            "Entity": "hotele"
+			          }
+			        },
+			        "hotele.país": {
+			          "Target": {
+			            "Entity": "hotele.país"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "hotele.país"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "hotele"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "hotele.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hoteles_are_in_país"
+			        }
+			      ]
+			    },
+			    "hotele_país_jerarquía_provincia_o_estado_has_hotele_país_jerarquía_ciudad": {
+			      "Binding": {
+			        "ConceptualEntity": "Hoteles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hotele.país_jerarquía.provincia_o_estado": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.provincia_o_estado"
+			          }
+			        },
+			        "hotele.país_jerarquía.ciudad": {
+			          "Target": {
+			            "Entity": "hotele.país_jerarquía.ciudad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.ciudad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "provincia_o_estado_have_ciudad"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía.ciudad"
+			            },
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ciudad_have_provincia_o_estado"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "hotele.país_jerarquía.ciudad"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "hotele.país_jerarquía.provincia_o_estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ciudad_are_in_provincia_o_estado"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

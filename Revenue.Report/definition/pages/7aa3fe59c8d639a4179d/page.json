@@ -1,0 +1,82 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "7aa3fe59c8d639a4179d",
+  "displayName": "Hotel Branches",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Dashboard%20(box%20azul)[1].svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Dashboard_20(box_20azul)_1_9325322835654333.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Normal'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "a466e79b5d361b8710f9",
+      "target": "7b64e01fefa9721fd863",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0d2359601950f0cb84e2",
+      "target": "a466e79b5d361b8710f9",
+      "type": "DataFilter"
+    },
+    {
+      "source": "0d2359601950f0cb84e2",
+      "target": "d2ef8434b68ea21da452",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0d2359601950f0cb84e2",
+      "target": "7581d04c97a4f27bba6c",
+      "type": "DataFilter"
+    },
+    {
+      "source": "7366eea10da4135e51ff",
+      "target": "7581d04c97a4f27bba6c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7366eea10da4135e51ff",
+      "target": "a466e79b5d361b8710f9",
+      "type": "NoFilter"
+    }
+  ]
+}

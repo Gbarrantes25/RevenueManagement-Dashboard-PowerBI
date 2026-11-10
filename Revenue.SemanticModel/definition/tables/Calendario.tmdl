@@ -1,0 +1,93 @@
+table Calendario
+	lineageTag: 351a9668-7a63-4c63-9640-41eea61732c7
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: dd/mm/yyyy
+		lineageTag: 939c7365-083d-4ebe-8c7a-7de0367c9ae1
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Año
+		formatString: 0
+		lineageTag: 86faaaed-c097-4863-be66-0b7b0fe3e2cd
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Año]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		formatString: 0
+		lineageTag: 33a12259-fd45-4a22-b0ff-f6ec126f843e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mes]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		formatString: 0
+		lineageTag: 49529e99-41ca-42c9-a6b4-3c22221b748b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Trimestre]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nombre Mes'
+		lineageTag: 83939e51-efc1-4423-a47d-2bef61bd080a
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Nombre Mes]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Día del Mes'
+		formatString: 0
+		lineageTag: 622aa901-e0d1-475b-8b30-ab97cd31419e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Día del Mes]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'N° Semana'
+		formatString: 0
+		lineageTag: dc7589fa-4956-4df0-b5f8-dc32296f0e1e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [N° Semana]
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Date Jerarquía'
+		lineageTag: fc37af17-ab2e-4ab8-bb84-d8b2296857f3
+
+		level Date
+			lineageTag: f6d40b7f-2288-49f5-a598-839e71d5fd56
+			column: Date
+
+	partition Calendario = calculated
+		mode: import
+		source = ```
+				
+				    ADDCOLUMNS (
+				        CALENDAR(FIRSTDATE(Reservaciones[Check-in]),LASTDATE(Reservaciones[Check-in])), // Crea el rango de fechas automático
+				        "Año", YEAR ( [Date] ),
+				        "Mes", MONTH ( [Date] ),
+				        "Trimestre", QUARTER ( [Date] ),
+				        "Nombre Mes", FORMAT ( [Date], "mmm" ), // Muestra el nombre completo del mes
+				        "Día del Mes", DAY ( [Date] ),
+				        "N° Semana",WEEKNUM([Date])
+				    )
+				```
+
+	annotation PBI_Id = 14960f629231436a9e957a08bffb3ce5
+

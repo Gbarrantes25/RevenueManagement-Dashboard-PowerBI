@@ -1,0 +1,42 @@
+table Habitaciones
+	lineageTag: bc930646-5095-4e7f-aad9-10eb8b88bd6e
+
+	column 'ID hotel'
+		dataType: int64
+		formatString: 0
+		lineageTag: 61141d07-6da9-41c6-b548-eb23228ee12a
+		summarizeBy: none
+		sourceColumn: ID hotel
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de habitación'
+		dataType: string
+		lineageTag: f0aaa6f8-59b6-41d3-ab43-699314628803
+		summarizeBy: none
+		sourceColumn: Tipo de habitación
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cantidad de Habitaciones'
+		dataType: int64
+		formatString: 0
+		lineageTag: af767173-2ef5-4c07-b7db-7693eb5c0ebb
+		summarizeBy: sum
+		sourceColumn: Cantidad de Habitaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Habitaciones = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/e/2PACX-1vRdWNnJHLjaaxnecHMjJK8TAAop6xaUzc2tE5GKhMgPZyLvMDqzsVRGwXgw6ONBDgNShjCJSyITTLpV/pub?output=xlsx"), null, true),
+				    Habitaciones_Sheet = Origen{[Item="Habitaciones",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Habitaciones_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID hotel", Int64.Type}, {"Tipo de habitación", type text}, {"Cantidad de Habitaciones", Int64.Type}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+
